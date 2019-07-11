@@ -7,5 +7,5 @@ module.exports = (deployer, network, [owner]) => {
     .then(() => deployer.deploy(MyToken, "Mitsein", "MTS", 18, 21000000))
     .then(() => deployer.deploy(PresaleCrowdsale, 10000, owner, MyToken.address, owner))
     .then(() => MyToken.deployed())
-    .then(token => token.increaseAllowance(PresaleCrowdsale.address, toHex((1 * (10 ** 18)))));
+    .then(token => token.approve(PresaleCrowdsale.address, toHex((1 * (10 ** 18)))));
 };

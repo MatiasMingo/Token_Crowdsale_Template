@@ -247,14 +247,14 @@
     "absolutePath": "/C/Users/Lenovo/Desktop/Obsession/Sprints/Sprint 2/ERC20_Web3_Stablecoin3/my_token/contracts/MyToken_Crowdsale_Time-Bounded.sol",
     "exportedSymbols": {
       "RoundCrowdsale": [
-        150
+        152
       ]
     },
-    "id": 151,
+    "id": 153,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 113,
+        "id": 115,
         "literals": [
           "solidity",
           "0.5",
@@ -266,10 +266,10 @@
       {
         "absolutePath": "openzeppelin-solidity/contracts/token/ERC20/ERC20.sol",
         "file": "openzeppelin-solidity/contracts/token/ERC20/ERC20.sol",
-        "id": 114,
+        "id": 116,
         "nodeType": "ImportDirective",
-        "scope": 151,
-        "sourceUnit": 1582,
+        "scope": 153,
+        "sourceUnit": 1584,
         "src": "26:63:3",
         "symbolAliases": [],
         "unitAlias": ""
@@ -277,10 +277,10 @@
       {
         "absolutePath": "openzeppelin-solidity/contracts/crowdsale/Crowdsale.sol",
         "file": "openzeppelin-solidity/contracts/crowdsale/Crowdsale.sol",
-        "id": 115,
+        "id": 117,
         "nodeType": "ImportDirective",
-        "scope": 151,
-        "sourceUnit": 718,
+        "scope": 153,
+        "sourceUnit": 720,
         "src": "91:65:3",
         "symbolAliases": [],
         "unitAlias": ""
@@ -288,10 +288,10 @@
       {
         "absolutePath": "openzeppelin-solidity/contracts/crowdsale/emission/AllowanceCrowdsale.sol",
         "file": "openzeppelin-solidity/contracts/crowdsale/emission/AllowanceCrowdsale.sol",
-        "id": 116,
+        "id": 118,
         "nodeType": "ImportDirective",
-        "scope": 151,
-        "sourceUnit": 802,
+        "scope": 153,
+        "sourceUnit": 804,
         "src": "158:83:3",
         "symbolAliases": [],
         "unitAlias": ""
@@ -299,10 +299,10 @@
       {
         "absolutePath": "openzeppelin-solidity/contracts/crowdsale/validation/TimedCrowdsale.sol",
         "file": "openzeppelin-solidity/contracts/crowdsale/validation/TimedCrowdsale.sol",
-        "id": 117,
+        "id": 119,
         "nodeType": "ImportDirective",
-        "scope": 151,
-        "sourceUnit": 952,
+        "scope": 153,
+        "sourceUnit": 954,
         "src": "243:81:3",
         "symbolAliases": [],
         "unitAlias": ""
@@ -313,17 +313,17 @@
             "arguments": null,
             "baseName": {
               "contractScope": null,
-              "id": 118,
+              "id": 120,
               "name": "AllowanceCrowdsale",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 801,
+              "referencedDeclaration": 803,
               "src": "357:18:3",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_AllowanceCrowdsale_$801",
+                "typeIdentifier": "t_contract$_AllowanceCrowdsale_$803",
                 "typeString": "contract AllowanceCrowdsale"
               }
             },
-            "id": 119,
+            "id": 121,
             "nodeType": "InheritanceSpecifier",
             "src": "357:18:3"
           },
@@ -331,50 +331,50 @@
             "arguments": null,
             "baseName": {
               "contractScope": null,
-              "id": 120,
+              "id": 122,
               "name": "TimedCrowdsale",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 951,
+              "referencedDeclaration": 953,
               "src": "377:14:3",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_TimedCrowdsale_$951",
+                "typeIdentifier": "t_contract$_TimedCrowdsale_$953",
                 "typeString": "contract TimedCrowdsale"
               }
             },
-            "id": 121,
+            "id": 123,
             "nodeType": "InheritanceSpecifier",
             "src": "377:14:3"
           }
         ],
         "contractDependencies": [
-          717,
-          801,
-          951,
-          1978
+          719,
+          803,
+          953,
+          1980
         ],
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 150,
+        "id": 152,
         "linearizedBaseContracts": [
-          150,
-          951,
-          801,
-          717,
-          1978
+          152,
+          953,
+          803,
+          719,
+          1980
         ],
         "name": "RoundCrowdsale",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": {
-              "id": 148,
+              "id": 150,
               "nodeType": "Block",
               "src": "704:2:3",
               "statements": []
             },
             "documentation": null,
-            "id": 149,
+            "id": 151,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [
@@ -382,11 +382,11 @@
                 "arguments": [
                   {
                     "argumentTypes": null,
-                    "id": 136,
+                    "id": 138,
                     "name": "_rate",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 123,
+                    "referencedDeclaration": 125,
                     "src": "579:5:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
@@ -395,11 +395,11 @@
                   },
                   {
                     "argumentTypes": null,
-                    "id": 137,
+                    "id": 139,
                     "name": "_wallet",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 125,
+                    "referencedDeclaration": 127,
                     "src": "586:7:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address_payable",
@@ -408,29 +408,29 @@
                   },
                   {
                     "argumentTypes": null,
-                    "id": 138,
+                    "id": 140,
                     "name": "_token",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 127,
+                    "referencedDeclaration": 129,
                     "src": "595:6:3",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_ERC20_$1581",
+                      "typeIdentifier": "t_contract$_ERC20_$1583",
                       "typeString": "contract ERC20"
                     }
                   }
                 ],
-                "id": 139,
+                "id": 141,
                 "modifierName": {
                   "argumentTypes": null,
-                  "id": 135,
+                  "id": 137,
                   "name": "Crowdsale",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 717,
+                  "referencedDeclaration": 719,
                   "src": "569:9:3",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_type$_t_contract$_Crowdsale_$717_$",
+                    "typeIdentifier": "t_type$_t_contract$_Crowdsale_$719_$",
                     "typeString": "type(contract Crowdsale)"
                   }
                 },
@@ -441,11 +441,11 @@
                 "arguments": [
                   {
                     "argumentTypes": null,
-                    "id": 141,
+                    "id": 143,
                     "name": "_tokenWallet",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 129,
+                    "referencedDeclaration": 131,
                     "src": "627:12:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -453,17 +453,17 @@
                     }
                   }
                 ],
-                "id": 142,
+                "id": 144,
                 "modifierName": {
                   "argumentTypes": null,
-                  "id": 140,
+                  "id": 142,
                   "name": "AllowanceCrowdsale",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 801,
+                  "referencedDeclaration": 803,
                   "src": "608:18:3",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_type$_t_contract$_AllowanceCrowdsale_$801_$",
+                    "typeIdentifier": "t_type$_t_contract$_AllowanceCrowdsale_$803_$",
                     "typeString": "type(contract AllowanceCrowdsale)"
                   }
                 },
@@ -474,11 +474,11 @@
                 "arguments": [
                   {
                     "argumentTypes": null,
-                    "id": 144,
+                    "id": 146,
                     "name": "_openingTime",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 131,
+                    "referencedDeclaration": 133,
                     "src": "661:12:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
@@ -487,11 +487,11 @@
                   },
                   {
                     "argumentTypes": null,
-                    "id": 145,
+                    "id": 147,
                     "name": "_closingTime",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 133,
+                    "referencedDeclaration": 135,
                     "src": "675:12:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
@@ -499,17 +499,17 @@
                     }
                   }
                 ],
-                "id": 146,
+                "id": 148,
                 "modifierName": {
                   "argumentTypes": null,
-                  "id": 143,
+                  "id": 145,
                   "name": "TimedCrowdsale",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 951,
+                  "referencedDeclaration": 953,
                   "src": "646:14:3",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_type$_t_contract$_TimedCrowdsale_$951_$",
+                    "typeIdentifier": "t_type$_t_contract$_TimedCrowdsale_$953_$",
                     "typeString": "type(contract TimedCrowdsale)"
                   }
                 },
@@ -520,15 +520,15 @@
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 134,
+              "id": 136,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 123,
+                  "id": 125,
                   "name": "_rate",
                   "nodeType": "VariableDeclaration",
-                  "scope": 149,
+                  "scope": 151,
                   "src": "415:13:3",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -537,7 +537,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 122,
+                    "id": 124,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "415:7:3",
@@ -551,10 +551,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 125,
+                  "id": 127,
                   "name": "_wallet",
                   "nodeType": "VariableDeclaration",
-                  "scope": 149,
+                  "scope": 151,
                   "src": "435:23:3",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -563,7 +563,7 @@
                     "typeString": "address payable"
                   },
                   "typeName": {
-                    "id": 124,
+                    "id": 126,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "435:15:3",
@@ -578,26 +578,26 @@
                 },
                 {
                   "constant": false,
-                  "id": 127,
+                  "id": 129,
                   "name": "_token",
                   "nodeType": "VariableDeclaration",
-                  "scope": 149,
+                  "scope": 151,
                   "src": "465:12:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_ERC20_$1581",
+                    "typeIdentifier": "t_contract$_ERC20_$1583",
                     "typeString": "contract ERC20"
                   },
                   "typeName": {
                     "contractScope": null,
-                    "id": 126,
+                    "id": 128,
                     "name": "ERC20",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 1581,
+                    "referencedDeclaration": 1583,
                     "src": "465:5:3",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_ERC20_$1581",
+                      "typeIdentifier": "t_contract$_ERC20_$1583",
                       "typeString": "contract ERC20"
                     }
                   },
@@ -606,10 +606,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 129,
+                  "id": 131,
                   "name": "_tokenWallet",
                   "nodeType": "VariableDeclaration",
-                  "scope": 149,
+                  "scope": 151,
                   "src": "484:20:3",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -618,7 +618,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 128,
+                    "id": 130,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "484:7:3",
@@ -633,10 +633,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 131,
+                  "id": 133,
                   "name": "_openingTime",
                   "nodeType": "VariableDeclaration",
-                  "scope": 149,
+                  "scope": 151,
                   "src": "511:20:3",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -645,7 +645,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 130,
+                    "id": 132,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "511:7:3",
@@ -659,10 +659,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 133,
+                  "id": 135,
                   "name": "_closingTime",
                   "nodeType": "VariableDeclaration",
-                  "scope": 149,
+                  "scope": 151,
                   "src": "538:20:3",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -671,7 +671,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 132,
+                    "id": 134,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "538:7:3",
@@ -687,19 +687,19 @@
               "src": "408:155:3"
             },
             "returnParameters": {
-              "id": 147,
+              "id": 149,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "704:0:3"
             },
-            "scope": 150,
+            "scope": 152,
             "src": "397:309:3",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 151,
+        "scope": 153,
         "src": "330:379:3"
       }
     ],
@@ -709,14 +709,14 @@
     "absolutePath": "/C/Users/Lenovo/Desktop/Obsession/Sprints/Sprint 2/ERC20_Web3_Stablecoin3/my_token/contracts/MyToken_Crowdsale_Time-Bounded.sol",
     "exportedSymbols": {
       "RoundCrowdsale": [
-        150
+        152
       ]
     },
-    "id": 151,
+    "id": 153,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 113,
+        "id": 115,
         "literals": [
           "solidity",
           "0.5",
@@ -728,10 +728,10 @@
       {
         "absolutePath": "openzeppelin-solidity/contracts/token/ERC20/ERC20.sol",
         "file": "openzeppelin-solidity/contracts/token/ERC20/ERC20.sol",
-        "id": 114,
+        "id": 116,
         "nodeType": "ImportDirective",
-        "scope": 151,
-        "sourceUnit": 1582,
+        "scope": 153,
+        "sourceUnit": 1584,
         "src": "26:63:3",
         "symbolAliases": [],
         "unitAlias": ""
@@ -739,10 +739,10 @@
       {
         "absolutePath": "openzeppelin-solidity/contracts/crowdsale/Crowdsale.sol",
         "file": "openzeppelin-solidity/contracts/crowdsale/Crowdsale.sol",
-        "id": 115,
+        "id": 117,
         "nodeType": "ImportDirective",
-        "scope": 151,
-        "sourceUnit": 718,
+        "scope": 153,
+        "sourceUnit": 720,
         "src": "91:65:3",
         "symbolAliases": [],
         "unitAlias": ""
@@ -750,10 +750,10 @@
       {
         "absolutePath": "openzeppelin-solidity/contracts/crowdsale/emission/AllowanceCrowdsale.sol",
         "file": "openzeppelin-solidity/contracts/crowdsale/emission/AllowanceCrowdsale.sol",
-        "id": 116,
+        "id": 118,
         "nodeType": "ImportDirective",
-        "scope": 151,
-        "sourceUnit": 802,
+        "scope": 153,
+        "sourceUnit": 804,
         "src": "158:83:3",
         "symbolAliases": [],
         "unitAlias": ""
@@ -761,10 +761,10 @@
       {
         "absolutePath": "openzeppelin-solidity/contracts/crowdsale/validation/TimedCrowdsale.sol",
         "file": "openzeppelin-solidity/contracts/crowdsale/validation/TimedCrowdsale.sol",
-        "id": 117,
+        "id": 119,
         "nodeType": "ImportDirective",
-        "scope": 151,
-        "sourceUnit": 952,
+        "scope": 153,
+        "sourceUnit": 954,
         "src": "243:81:3",
         "symbolAliases": [],
         "unitAlias": ""
@@ -775,17 +775,17 @@
             "arguments": null,
             "baseName": {
               "contractScope": null,
-              "id": 118,
+              "id": 120,
               "name": "AllowanceCrowdsale",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 801,
+              "referencedDeclaration": 803,
               "src": "357:18:3",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_AllowanceCrowdsale_$801",
+                "typeIdentifier": "t_contract$_AllowanceCrowdsale_$803",
                 "typeString": "contract AllowanceCrowdsale"
               }
             },
-            "id": 119,
+            "id": 121,
             "nodeType": "InheritanceSpecifier",
             "src": "357:18:3"
           },
@@ -793,50 +793,50 @@
             "arguments": null,
             "baseName": {
               "contractScope": null,
-              "id": 120,
+              "id": 122,
               "name": "TimedCrowdsale",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 951,
+              "referencedDeclaration": 953,
               "src": "377:14:3",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_TimedCrowdsale_$951",
+                "typeIdentifier": "t_contract$_TimedCrowdsale_$953",
                 "typeString": "contract TimedCrowdsale"
               }
             },
-            "id": 121,
+            "id": 123,
             "nodeType": "InheritanceSpecifier",
             "src": "377:14:3"
           }
         ],
         "contractDependencies": [
-          717,
-          801,
-          951,
-          1978
+          719,
+          803,
+          953,
+          1980
         ],
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 150,
+        "id": 152,
         "linearizedBaseContracts": [
-          150,
-          951,
-          801,
-          717,
-          1978
+          152,
+          953,
+          803,
+          719,
+          1980
         ],
         "name": "RoundCrowdsale",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": {
-              "id": 148,
+              "id": 150,
               "nodeType": "Block",
               "src": "704:2:3",
               "statements": []
             },
             "documentation": null,
-            "id": 149,
+            "id": 151,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [
@@ -844,11 +844,11 @@
                 "arguments": [
                   {
                     "argumentTypes": null,
-                    "id": 136,
+                    "id": 138,
                     "name": "_rate",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 123,
+                    "referencedDeclaration": 125,
                     "src": "579:5:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
@@ -857,11 +857,11 @@
                   },
                   {
                     "argumentTypes": null,
-                    "id": 137,
+                    "id": 139,
                     "name": "_wallet",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 125,
+                    "referencedDeclaration": 127,
                     "src": "586:7:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address_payable",
@@ -870,29 +870,29 @@
                   },
                   {
                     "argumentTypes": null,
-                    "id": 138,
+                    "id": 140,
                     "name": "_token",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 127,
+                    "referencedDeclaration": 129,
                     "src": "595:6:3",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_ERC20_$1581",
+                      "typeIdentifier": "t_contract$_ERC20_$1583",
                       "typeString": "contract ERC20"
                     }
                   }
                 ],
-                "id": 139,
+                "id": 141,
                 "modifierName": {
                   "argumentTypes": null,
-                  "id": 135,
+                  "id": 137,
                   "name": "Crowdsale",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 717,
+                  "referencedDeclaration": 719,
                   "src": "569:9:3",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_type$_t_contract$_Crowdsale_$717_$",
+                    "typeIdentifier": "t_type$_t_contract$_Crowdsale_$719_$",
                     "typeString": "type(contract Crowdsale)"
                   }
                 },
@@ -903,11 +903,11 @@
                 "arguments": [
                   {
                     "argumentTypes": null,
-                    "id": 141,
+                    "id": 143,
                     "name": "_tokenWallet",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 129,
+                    "referencedDeclaration": 131,
                     "src": "627:12:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -915,17 +915,17 @@
                     }
                   }
                 ],
-                "id": 142,
+                "id": 144,
                 "modifierName": {
                   "argumentTypes": null,
-                  "id": 140,
+                  "id": 142,
                   "name": "AllowanceCrowdsale",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 801,
+                  "referencedDeclaration": 803,
                   "src": "608:18:3",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_type$_t_contract$_AllowanceCrowdsale_$801_$",
+                    "typeIdentifier": "t_type$_t_contract$_AllowanceCrowdsale_$803_$",
                     "typeString": "type(contract AllowanceCrowdsale)"
                   }
                 },
@@ -936,11 +936,11 @@
                 "arguments": [
                   {
                     "argumentTypes": null,
-                    "id": 144,
+                    "id": 146,
                     "name": "_openingTime",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 131,
+                    "referencedDeclaration": 133,
                     "src": "661:12:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
@@ -949,11 +949,11 @@
                   },
                   {
                     "argumentTypes": null,
-                    "id": 145,
+                    "id": 147,
                     "name": "_closingTime",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 133,
+                    "referencedDeclaration": 135,
                     "src": "675:12:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
@@ -961,17 +961,17 @@
                     }
                   }
                 ],
-                "id": 146,
+                "id": 148,
                 "modifierName": {
                   "argumentTypes": null,
-                  "id": 143,
+                  "id": 145,
                   "name": "TimedCrowdsale",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 951,
+                  "referencedDeclaration": 953,
                   "src": "646:14:3",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_type$_t_contract$_TimedCrowdsale_$951_$",
+                    "typeIdentifier": "t_type$_t_contract$_TimedCrowdsale_$953_$",
                     "typeString": "type(contract TimedCrowdsale)"
                   }
                 },
@@ -982,15 +982,15 @@
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 134,
+              "id": 136,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 123,
+                  "id": 125,
                   "name": "_rate",
                   "nodeType": "VariableDeclaration",
-                  "scope": 149,
+                  "scope": 151,
                   "src": "415:13:3",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -999,7 +999,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 122,
+                    "id": 124,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "415:7:3",
@@ -1013,10 +1013,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 125,
+                  "id": 127,
                   "name": "_wallet",
                   "nodeType": "VariableDeclaration",
-                  "scope": 149,
+                  "scope": 151,
                   "src": "435:23:3",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1025,7 +1025,7 @@
                     "typeString": "address payable"
                   },
                   "typeName": {
-                    "id": 124,
+                    "id": 126,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "435:15:3",
@@ -1040,26 +1040,26 @@
                 },
                 {
                   "constant": false,
-                  "id": 127,
+                  "id": 129,
                   "name": "_token",
                   "nodeType": "VariableDeclaration",
-                  "scope": 149,
+                  "scope": 151,
                   "src": "465:12:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_ERC20_$1581",
+                    "typeIdentifier": "t_contract$_ERC20_$1583",
                     "typeString": "contract ERC20"
                   },
                   "typeName": {
                     "contractScope": null,
-                    "id": 126,
+                    "id": 128,
                     "name": "ERC20",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 1581,
+                    "referencedDeclaration": 1583,
                     "src": "465:5:3",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_ERC20_$1581",
+                      "typeIdentifier": "t_contract$_ERC20_$1583",
                       "typeString": "contract ERC20"
                     }
                   },
@@ -1068,10 +1068,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 129,
+                  "id": 131,
                   "name": "_tokenWallet",
                   "nodeType": "VariableDeclaration",
-                  "scope": 149,
+                  "scope": 151,
                   "src": "484:20:3",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1080,7 +1080,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 128,
+                    "id": 130,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "484:7:3",
@@ -1095,10 +1095,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 131,
+                  "id": 133,
                   "name": "_openingTime",
                   "nodeType": "VariableDeclaration",
-                  "scope": 149,
+                  "scope": 151,
                   "src": "511:20:3",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1107,7 +1107,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 130,
+                    "id": 132,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "511:7:3",
@@ -1121,10 +1121,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 133,
+                  "id": 135,
                   "name": "_closingTime",
                   "nodeType": "VariableDeclaration",
-                  "scope": 149,
+                  "scope": 151,
                   "src": "538:20:3",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1133,7 +1133,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 132,
+                    "id": 134,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "538:7:3",
@@ -1149,19 +1149,19 @@
               "src": "408:155:3"
             },
             "returnParameters": {
-              "id": 147,
+              "id": 149,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "704:0:3"
             },
-            "scope": 150,
+            "scope": 152,
             "src": "397:309:3",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 151,
+        "scope": 153,
         "src": "330:379:3"
       }
     ],
@@ -1173,7 +1173,7 @@
   },
   "networks": {},
   "schemaVersion": "3.0.11",
-  "updatedAt": "2019-06-22T16:57:36.800Z",
+  "updatedAt": "2019-07-11T01:16:26.871Z",
   "devdoc": {
     "methods": {
       "buyTokens(address)": {

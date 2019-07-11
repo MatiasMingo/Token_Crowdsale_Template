@@ -1,9 +1,6 @@
-const MyToken = artifacts.require("MyToken");
+const MyToken = artifacts.require("./MyToken.sol");
 
 module.exports = function(deployer) {
-  const _name = 'Mitsein';
-  const _symbol = 'MTS';
-  const _decimals = 18;
-  
-  deployer.deploy(MyToken, _name, _symbol, _decimals);
+  deployer.deploy(MyToken, 'Mitsein', 'MTS', 18, 21000000);
 };
+

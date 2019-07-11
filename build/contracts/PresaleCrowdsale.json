@@ -1049,15 +1049,15 @@
     "version": "0.5.8+commit.23d335f2.Emscripten.clang"
   },
   "networks": {
-    "1561223104778": {
+    "1562807655733": {
       "events": {},
       "links": {},
-      "address": "0x948BCCd21e4cEc940D96BC6Df86d84444A192B86",
-      "transactionHash": "0x2543b79a6fd3e8e37139cbc5d048cae037739ffe77d395be73fe48605b25fb6f"
+      "address": "0x6EF0d198A7874a1E563Ac717C596222e69b745Ab",
+      "transactionHash": "0x6e3d41256fc1792a1dc67f38f953c67e466d737456d3d1e9b24958be58f4b24d"
     }
   },
   "schemaVersion": "3.0.11",
-  "updatedAt": "2019-06-23T00:34:30.410Z",
+  "updatedAt": "2019-07-11T01:16:32.684Z",
   "devdoc": {
     "methods": {
       "buyTokens(address)": {
