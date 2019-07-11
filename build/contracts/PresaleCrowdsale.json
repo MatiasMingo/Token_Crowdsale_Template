@@ -1054,10 +1054,16 @@
       "links": {},
       "address": "0x6EF0d198A7874a1E563Ac717C596222e69b745Ab",
       "transactionHash": "0x6e3d41256fc1792a1dc67f38f953c67e466d737456d3d1e9b24958be58f4b24d"
+    },
+    "1562810819100": {
+      "events": {},
+      "links": {},
+      "address": "0x506E196C78671a6FF45EB445FA9Ab96a99e30C00",
+      "transactionHash": "0x168a3627175525111335035244c66422b145f65320049d2c527606412c9161d7"
     }
   },
   "schemaVersion": "3.0.11",
-  "updatedAt": "2019-07-11T01:16:32.684Z",
+  "updatedAt": "2019-07-11T02:07:27.977Z",
   "devdoc": {
     "methods": {
       "buyTokens(address)": {
